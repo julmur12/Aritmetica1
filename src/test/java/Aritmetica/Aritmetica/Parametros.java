@@ -21,7 +21,7 @@ public class Parametros extends Abstract {
 	
 	@Title("Prueba de Método Resta")
 	@Test
-	public void ProbarResta() {
+	public void ProbarRestas() {
 
 		try {
 			Assert.assertEquals(6,ari.resta(8, 2));
