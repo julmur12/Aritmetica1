@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuitePruebas]">
+  <test name="Pruebas(failed)">
+    <classes>
+      <class name="Aritmetica.Aritmetica.Parametros">
+        <methods>
+          <include name="setUp"/>
+          <include name="ProbarDiv"/>
+          <include name="setOut"/>
+        </methods>
+      </class> <!-- Aritmetica.Aritmetica.Parametros -->
+    </classes>
+  </test> <!-- Pruebas(failed) -->
+</suite> <!-- Failed suite [SuitePruebas] -->
